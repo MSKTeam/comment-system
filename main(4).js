@@ -1,4 +1,5 @@
-  var VUUKLE_CONFIG = {
+export function initializeVuukle() {
+var VUUKLE_CONFIG = {
     apiKey: '35b198b3-0c86-4c5f-a57f-64670150d8ee',
     articleId: '', // Giữ một chỗ trống ở đây để sau đó thêm ID bài viết
   };
@@ -27,3 +28,4 @@
     s.src = 'https://cdn.vuukle.com/platform.js';
     (d.head || d.body).appendChild(s);
   })();
+}
